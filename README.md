@@ -24,4 +24,5 @@ Dataset file (dataset.csv) has 10 fields, described as below
 
 ## Reference
 [1] Kim, Inyeop, et al. "Understanding User Contexts and Coping Strategies for Context-Aware Phone Distraction Management System Design." Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 4.4 (2020): 1-33.
+
 [2] Choi, Woohyeok, et al. "Multi-stage receptivity model for mobile just-in-time health intervention." Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 3.2 (2019): 1-26.
