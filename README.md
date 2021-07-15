@@ -4,13 +4,14 @@ We collected in-situ user context and the corresponding smartphone distraction e
 
 ## Mobile ESM app
 
+
+
 ## Detecting moments for response sampling
 
-Requesting responses from users at inappropriate times can cause inconvenience for users, as it may interfere with their ongoing activities. Therefore, finding the right
-opportunity for sampling experience is essential [1].
+Requesting responses from users at inappropriate times can cause inconvenience for users, as it may interfere with their ongoing activities. Therefore, finding the right opportunity for sampling experience is essential [1]. Our approach was capturing a time slot during which one activity lasts and asking users to report the context during that time slot rather than asking whenever users turn on their smartphones. We also assumed that when continuing the activity, a user would be stationary, since when the user moves, their context may change. We also only considered the time slot during which users did not use smartphones because their smartphone use may not be related to the activity they are currently engaged in and most importantly, our goal was to identify in what contexts users perceive smartphones as distracting. Therefore, to determine when to display the survey screen in the lockscreen, we decided that two conditions should be satisfied: (1) the user is stationary and (2) the user has not been using their smartphone for a certain amount of time. The app has an internal timer to count to three minutes. If either condition is not satisfied, the app will reset the timer. Once both conditions have continued to be met for three minutes, the app will display the survey lock screen when the user turns on their smartphone. We empirically selected three minutes as the minimum duration of time slot.
 
-## dataset.csv
-This file has 5 fields, described as below
+## Dataset
+Dataset file (dataset.csv) has 10 fields, described as below
 1. pid: The ID for each participant of the study
 2. location
 3. activity
